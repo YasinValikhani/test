@@ -8,15 +8,15 @@
 
 # print('-----------------------------')
 
-# emplooye = {
-#     "name" : 'sam',
-#     'age' : 32,
-#     'work' : 'macdonelds' }
-# emplooye['age'] += 3
-# emplooye['work'] = 'office'
+emplooye = {
+    "name" : 'sam',
+    'age' : 32,
+    'work' : 'macdonelds' }
+emplooye['age'] += 3
+emplooye['work'] = 'office'
 
-# for key,value in emplooye.items():
-#     print(f'your {key} is: {value}')
+for key,value in emplooye.items():
+    print(f'your {key} is: {value}')
 
 # print('-----------------------------')
 
@@ -53,12 +53,12 @@
 
 # print('-----------------------------')
 
-expenses = {
-    'tshert' : 1500,
-    'watch' : 3500,
-    'shoe'  : 1250,
-    'jean'  : 795
-}
-print(f'tottal expenses:',sum(expenses.values()))
+# expenses = {
+#     'tshert' : 1500,
+#     'watch' : 3500,
+#     'shoe'  : 1250,
+#     'jean'  : 795
+# }
+# print(f'tottal expenses:',sum(expenses.values()))
 
 
