@@ -68,9 +68,6 @@ def get_rates():
     print('Exchange rate:\n')
     print(json.dumps(data, indent=2))  # چاپ مرتب
 
-    # for currency, rate in data["rates"].items():
-    #     print(f"{currency}: {rate}")
-
     return data  # 🔁 مهم: برگردوندن داده برای استفاده در جای دیگه
 
 def archive(filename, rates):
@@ -102,4 +99,3 @@ if __name__ == "__main__":
 
     if rules['send_mail']:
         send_mail(res['timestamp'], res['rates'])
-
