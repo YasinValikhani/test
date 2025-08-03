@@ -14,7 +14,7 @@ with open(filename, "w", encoding="utf-8") as f:
 # 3. تنظیمات ایمیل
 sender_email = "Private Person <from@example.com>"
 receiver_email = "A Test User <to@example.com>"
-subject = "📄 گزارش روزانه"
+subject = "گزارش روزانه"
 
 # 4. ساخت بدنه ایمیل
 message = MIMEMultipart()
@@ -44,7 +44,7 @@ with smtplib.SMTP(smtp_server, port) as server:
     server.login(username, password)
     server.sendmail(sender_email, receiver_email, message.as_string())
 
-print("✅ ایمیل با پیوست ارسال شد.")
+print(" ایمیل با پیوست ارسال شد.")
 
 
 
